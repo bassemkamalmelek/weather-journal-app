@@ -1,0 +1,123 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+}
+.container{
+  width: 960px;
+  margin: auto;
+}
+#app{
+    height:100vh;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.holder{
+  min-height: 60px;
+  display: block;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    padding: 20px;
+}
+
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+  background-color: #2a3950;
+  color: #f54768;
+  padding-top: 15px;
+  font-size: 27px;
+  text-align: center;
+}
+.title{
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    margin: 5px 5px 5px 0px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 100%;
+    background:#efefef;
+    color: #999999;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #f54768;
+    color: #fffffa;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    margin-bottom: 20px;
+    padding: 0;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    width: 100%;
+    background:#efefef;
+    color: #999999;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #b8b8b8;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b8b8b8;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
